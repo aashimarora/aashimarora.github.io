@@ -134,6 +134,7 @@ header nav a:hover {
 .skill:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(135deg, #6a8dff, #ff99cc);
 }
 
 /* Credentials Section */
@@ -172,6 +173,12 @@ header nav a:hover {
     background-color: #6a8dff; /* Satin light pink background */
     transition: background-color 0.3s ease, color 0.3s ease;
 }
+.resume-link:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(135deg, #6a8dff, #ff99cc);
+}
+
 
 /* Contact Section */
 #contact {

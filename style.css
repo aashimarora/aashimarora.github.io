@@ -1,0 +1,212 @@
+/* General Reset */
+body, h1, h2, h3, p, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Background */
+ body {
+    font-family: 'Lato', sans-serif; /* Roboto font for readability */
+    line-height: 1.6;
+    background-color: #262832; /* Dark background for the body */
+    color: #ddd; /* Light text for contrast */
+    overflow-x: hidden;
+} 
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #6a8dff, #ff99cc); /* Satin blue to satin pink gradient */
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    font-family: 'Orbitron', sans-serif; /* Orbitron font for the header */
+}
+
+header .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #fff; /* White border */
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin: 10px 0 20px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 25px;
+    transition: background 0.3s, color 0.3s;
+}
+
+header nav a:hover {
+    background-color: #ff99cc;
+    color: #003366; /* Dark blue hover effect */
+}
+
+/* Section Styles */
+.section {
+    margin-top: 40px;
+    padding: 40px 20px;
+    background-color: #3a3c4c; /* Dark background for sections */
+    color: #ddd; /* Light text for sections */
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #f8c1e2; /* Light pastel pink for project card titles */
+    font-family: 'Orbitron', sans-serif; /* Orbitron font for the section header */
+}
+
+/* Project Cards */
+.project {
+    background: #4d5976; /* Satin dark blue for project cards */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #f8c1e2
+}
+
+.project a {
+    color: #80d0ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+/* Skills Section */
+#skills {
+    background-color: #3a3c4c; /* Satin dark blue for skills section */
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.skill {
+    background-color: #6a8dff; /* Satin light blue for each skill card */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Credentials Section */
+#credentials {
+    background-color: #3a3c4c; /* Satin light pink for credentials section */
+    text-align: center;
+}
+
+#credentials ul {
+    list-style: none;
+    padding: 0;
+}
+
+#credentials li {
+    font-size: 1rem;
+    padding: 10px 0;
+}
+
+#credentials li strong {
+    color: #ff69b4; /* Satin pink for certification titles */
+}
+
+/* Resume Section */
+#resume {
+    background-color: #3a3c4c; /* Light grey background for resume section */
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.resume-link {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #6a8dff; /* Satin light pink background */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #3a3c4c; /* Satin light pink for credentials section */
+}
+
+#contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contact li {
+    font-size: 1rem;
+    padding: 10px 0;
+}
+
+#contact li strong {
+    color: #ff69b4; /* Satin pink for certification titles */
+}
+#contact a {
+    color: #fff;
+    text-decoration: underline;
+    font-weight: lighter;
+}
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1b1b1b; /* Satin dark blue footer */
+    color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    font-size: 1rem;
+}
